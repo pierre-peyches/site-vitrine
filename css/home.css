@@ -1,0 +1,32 @@
+#video img{
+	width:100%;
+	height:auto;
+	opacity:0.5;
+}
+
+ #majeurs .row, #mineurs .row{
+	 margin-left:auto;
+	 margin-right:auto;
+	 width:1200px;
+ }
+ 
+ #majeurs img,#mineurs img{
+margin-left:auto;
+margin-right:auto;
+display:block;
+margin-top:30px;
+margin-bottom:50px;
+ }
+ 
+ #majeurs .row >*, #mineurs .row>*{
+	  border: 1px solid #434343;
+ }
+ #majeurs .hover, #mineurs .hover{/*On cache le plus d'information*/
+	 display:none;
+	 
+ }
+ 
+ 
+  #majeurs:hover .content >*{
+/* opacity:0.2;	   */
+  }
