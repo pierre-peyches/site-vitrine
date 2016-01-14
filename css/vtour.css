@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+body{
+	font-family:Roboto;
+	
+}
+
+nav.navbar.navbar-default{
+	font-size:1.5em;	
+	height:104px;
+	overflow-y:hidden;
+}
+nav > *{
+	height:104px;
+}
+
+nav > .nav.navbar-nav.navbar-right> a {
+	padding-right:25px;
+}
+
+.nav.navbar-nav, .nav.navbar-nav li{
+	height:104px;
+}
+.nav.navbar-nav li a {
+	line-height:104px;
+	height:104px;
+	padding-top:0;
+	padding-bottom:0;
+	
+}
+.nav.navbar-nav li a:hover {
+	background:#81b0d3;
+}
