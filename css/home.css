@@ -3,7 +3,7 @@
     height: auto;
     opacity: 0.5;
 }
-
+/*Avantages*/
 #majeurs .row,
 #mineurs .row {
     margin-left: auto;
@@ -41,6 +41,12 @@
 #majeurs .wrapper,
 #mineurs .wrapper {
     overflow: hidden;
+    height:422px;
+}
+.wrapper a.boutonplus {
+    position: absolute;
+    width: 100%;
+    bottom: 26px;
 }
 
 #mineurs .wrapper:hover .hover,
@@ -50,112 +56,17 @@
 
 #mineurs .wrapper:hover .content,
 #majeurs .wrapper:hover .content {
-    opacity: 0.1;
+    opacity: 0;
 }
+
 
 #mineurs .description,
 #majeurs .description {
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
+    font-size: 1.2em;
+    color: #434343;
 }
 
 
-/*Slider*/
-
-.dg-container {
-    width: 100%;
-    height: 550px;
-    position: relative;
-}
-
-.dg-wrapper {
-    width: 550px;
-    height: 340px;
-    margin: 0 auto;
-    margin-top: 50px;
-    position: relative;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    margin-left: 650px;
-}
-
-.dg-wrapper img {
-    width: 550px;
-    height: 340px;
-}
-
-
-/* on crée une ombre autour des visuels */
-
-.dg-wrapper a {
-    width: 550px;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.dg-wrapper a.dg-transition {
-    transition: all 0.5s ease-in-out;
-}
-
-.dg-wrapper a img {
-    display: block;
-}
-
-.dg-wrapper a div {
-    text-align: center;
-    padding: 20px;
-    color: #000;
-    font-size: 16px;
-    width: 100%;
-    margin-top: 30px;
-    display: none;
-    position: absolute;
-    font-family: Raleway, 'Century Gothic';
-}
-
-.dg-wrapper a.dg-center div {
-    display: block;
-}
-
-
-/* Début des flèches de navigation */
-
-.dg-container nav {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 90px;
-    width: 800px;
-}
-
-.dg-container nav span {
-    text-indent: -9000px;
-    float: left;
-    cursor: pointer;
-    width: 100px;
-    height: 100px;
-    opacity: 0.8;
-    background: transparent url("../img/refs/flechegauche.png") no-repeat top left;
-    transition: opacity 0.8s;
-}
-
-.dg-container nav span:hover {
-    opacity: 1;
-}
-
-
-/* Symétrie de la flèche de droite puis hover */
-
-.dg-container nav span.dg-next {
-    background-position: top right;
-    margin-left: 10px;
-    float: right;
-    transform: scaleX(-1);
-}
-
-.dg-container nav span.dg-next:hover {
-    background-position: bottom right;
-}
