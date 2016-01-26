@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -9,6 +9,8 @@
 <title>V-Tour</title>
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+    	<script type="text/javascript" src="js/jquery.gallery.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -46,90 +48,164 @@
   </div><!-- /.container-fluid -->
 </nav>
 <section id="video">
-<img src="img/banniere.png" />
+<img src="img/banniere.png" alt="banniere vtour"/>
 
 
 </section>
 <section id="majeurs">
 <div class="row" ><!-- Atouts majeurs-->
-  <div class="col-md-4 content">
+  <div class="col-md-4  wrapper">
+  <div class="content">
 	<img src="img/dematerialisation.png" alt="dematerialsiation"/>
 	<h2>Dématérialisez <br/>vos connaissances</h2>
 	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
-  
+  	</div>
+	<div class="hover">
+			<img src="img/dematerialisation.png" alt="dematerialsiation"/>
+			<p class="description"> Grâce à la dématérialisation de l’information,supprimez
+			les processus matériels d’acquisition de
+			l’information et économisez du temps et de l’argent dans l’accès à vos données.</p>
+			<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
+			</div>
   </div>
-  <div class="col-md-4 content">
+  <div class="col-md-4  wrapper">
+  <div class="content">
 	<img src="img/connaissance.png" alt="Connaissance"/>
 	<h2>Centralisez <br/>vos connaissances </h2>
 	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
+	</div>
+		<div class="hover">
+			<img src="img/connaissance.png" alt="connaissance"/>
+			<p class="description">Grâce à la centralisation de l’information,
+			centralisez les dernières versions de
+			vos documents et augmentez ainsi la qualité de vos interventions.
+			</p>
+			<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
+			</div>
   </div>
-  <div class="col-md-4 content">
+  <div class="col-md-4  wrapper">
+	<div class="content">
 	<img src="img/backoffice.png" alt="Back-office"/>
 	<h2>Administrez <br/>vos connaissances </h2>
-	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a></div>
-</div>
-<!--Hover -->
-  <div class="col-md-4 hover">
-	<img src="img/dematerialisation.png" alt="dematerialsiation"/>
-	<h2>Dématérialisez <br/>vos connaissances</h2>
 	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
-  
-  </div>
-  <div class="col-md-4 hover">
-	<img src="img/connaissance.png" alt="Connaissance"/>
-	<h2>Centralisez <br/>vos connaissances </h2>
-	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
-  </div>
-  <div class="col-md-4 hover">
-	<img src="img/backoffice.png" alt="Back-office"/>
-	<h2>Administrez <br/>vos connaissances </h2>
-	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a></div>
-</div>
+	</div>
+	<div class="hover">
+			<img src="img/backoffice.png" alt="backoffice"/>
+			<p class="description">
+			Grâce à l’interface d’administration clé en main, vous
+			pouvez gérer vos données directement en ligne,
+			vous gagnez ainsi en rapidité.</p>
+			<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
+			</div>
+		</div>
+
+
+	</div>
+<!--</div>-->
+
 </section>
 <section id="mineurs">
-<div class="row" ><!-- Atouts mineurs-->
-  <div class="col-md-4 content">
+<div class="row" ><!-- Atouts mineurs, accroche-->
+  <div class="col-md-4 wrapper">
+  <div class="content">
 	<img src="img/stats.png" alt="stats"/>
 	<h2>Analysez <br/>vos données</h2>
-	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
+	<a href="">
+	<img src="img/plus.png" alt="" class="bouton-plus"/></a>
+	</div>
+		<div class="hover">
+			<img src="img/stats.png" alt="stats"/>
+			<p class="description">
+			Grâce aux statistiques avancées fournies par V-Tour,
+			vous pouvez analyser en détail et
+			optimiser les données de votre réseau.</p>
+			<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
+			</div>
+		</div>
   
-  </div>
-  <div class="col-md-4 content">
+
+  <div class="col-md-4  wrapper">
+<div class="content">
 	<img src="img/saas.png" alt="SaaS"/>
 	<h2>Installez facilement <br/>avec notre SaaS </h2>
 	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
+  </div><!-- content-->
+  	<div class="hover">
+			<img src="img/saas.png" alt="saas"/>
+			<p class="description">
+			Grâce à son fonctionnement en mode Saas, plus besoin d’installer votre logiciel,
+			vous gagnez du temps en accédant au logiciel en ligne.
+			</p>
+			<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
+			</div>
   </div>
-  <div class="col-md-4 content">
-	<img src="img/evolutivite.png" alt="Back-office"/>
+  <div class="col-md-4  wrapper">
+  <div class="content">
+	<img src="img/evolutivite.png" alt="Evolutivité"/>
 	<h2>Faîtes évoluez<br/>votre logiciel </h2>
-	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a></div>
-</div>
-<!--Hover -->
-<div class="row" ><!-- Atouts mineurs-->
-  <div class="col-md-4 hover">
-	<img src="img/dematerialisation.png" alt="dematerialsiation"/>
-	<h2>Dématérialisez <br/>vos connaissances</h2>
 	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
-  
-  </div>
-  <div class="col-md-4 hover">
-	<img src="img/connaissance.png" alt="Connaissance"/>
-	<h2>Centralisez <br/>vos connaissances </h2>
-	<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
-  </div>
-  <div class="col-md-4 hover">
-	<img src="img/backoffice.png" alt="Back-office"/>
-	<h2>Faîtes évoluez <br/>votre application </h2>
-	<a href=""><img src="img/evolutivite.png" alt="" class="bouton-plus"/></a>
-  </div>
+	</div>
+		<div class="hover">
+			<img src="img/evolutivite.png" alt="evolutivite"/>
+			<p class="description">Notre logiciel est accessible à tous les membres de votre société,
+			nous ne limitons pas le nombre d’utilisateurs.</p>
+			<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>
+			</div>
+
+
+	</div>
 </div>
+
 </section>
+<!--
+    <section id="dg-container" class="dg-container">
+
+				<div class="dg-wrapper">
+
+					<a href="#" target="_blank" class="dg-center" >
+						<img src="img/refs/tsp.jpg" alt="image01">
+							<div>Campus Net<br/> ------------------- <br/>
+                                Modélisation du campus et
+                        </div>
+					</a>
+
+					<a href="#" target="_blank" >
+						<img src="img/refs/incubateur.jpg" alt="image02">
+							<div>Incubateur Telecom et Management SudParis<br/> ------------------- <br/> LOREM<br/>
+							</div>
+					</a>
+
+
+				<a href="#" target="_blank" >
+						<img src="img/refs/erdf.jpg" alt="image02">
+							<div>ERDF<br/> ------------------- <br/>Modélisation et administration du réseau électrique<br/>
+							</div>
+					</a>
+
+
+
+				</div>
+
+
+				<nav>	 Flèches de navigations entre les vidéos
+					<span class="dg-prev"></span>
+					<span class="dg-next"></span>
+				</nav>
+
+
+
+
+
+
+
+			</section>
+-->
 
 <footer>
-<a href="#"><img src="img/fb.png"/></a>
-<a href="#"><img src="img/twitter.png"/></a>
-<a href="#"><img src="img/viadeo.png"/></a>
-<a href="#"><img src="img/linkedin.png"/></a>
+<a href="#"><img src="img/fb.png" alt="facebook v-tour"/></a>
+<a href="#"><img src="img/twitter.png" alt="twitter v-tour"/></a>
+<a href="#"><img src="img/viadeo.png" alt=" viadeo v-tour"/></a>
+<a href="#"><img src="img/linkedin.png" alt="linkedin v-tour"/></a>
 <a href="#">© V-Tour</a>
 
 </footer>
