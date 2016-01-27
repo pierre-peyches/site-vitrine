@@ -171,7 +171,8 @@
     background-position: top right;
     margin-left: 10px;
     float: right;
-    transform: scaleX(-1);
+    background: transparent url("../img/refs/flechedroite.png") no-repeat top left;
+    transition: opacity 0.8s;
 }
 
 .dg-container nav span.dg-next:hover {
