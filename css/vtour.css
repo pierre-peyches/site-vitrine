@@ -1,69 +1,87 @@
-@font-face {
+    @font-face {
     font-family: Roboto;
     src: url(../fonts/Roboto-Medium.ttf);
 }
 
-body{
-	font-family:Roboto;
-	/* font-size:2em; */
-	
+body {
+    font-family: Roboto;
+    /* font-size:2em; */
 }
-a:hover{
-	text-decoration:none;
-}
-nav {
-	margin-bottom:0;
-} 
-.navbar-header, nav.navbar.navbar-default{
-		min-height:104px;
-}
-nav.navbar.navbar-default{
-	font-size:1.5em;	
 
-	/* overflow-y:hidden; */
-	margin-bottom:0;
+a:hover {
+    text-decoration: none;
 }
-nav > *{
-	/* height:104px; */
+
+nav {
+    margin-bottom: 0;
+}
+
+.navbar-header,
+nav.navbar.navbar-default {
+    min-height: 104px;
+}
+
+nav.navbar.navbar-default {
+    font-size: 1.5em;
+    /* overflow-y:hidden; */
+    margin-bottom: 0;
+}
+
+nav > * {
+    /* height:104px; */
 }
 
 nav > .nav.navbar-nav.navbar-right> a {
-	padding-right:25px;
+    padding-right: 25px;
 }
 
-.nav.navbar-nav, .nav.navbar-nav li{
-	/* height:104px; */
+.nav.navbar-nav,
+.nav.navbar-nav li {
+    /* height:104px; */
 }
+
 .nav.navbar-nav li a {
-	line-height:104px;
-	height:104px;
-	padding-top:0;
-	padding-bottom:0;
-	
-	
+    line-height: 104px;
+    height: 104px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
+
 .nav.navbar-nav li a:hover {
-	background:#81b0d3;
+    background: #81b0d3;
 }
+
 
 /*Titres*/
-h2{	
-text-align:center;
-color:#004364;
-font-size:2em;
+
+h2,
+h3 {
+    text-align: center;
+    line-height: 1.5em;
 }
 
-
-/*Footer*/
-footer{
-	height:90px;
-	background-color:#004364;
-	
+h2.fonce,
+h3.fonce {
+    color: #004364;
 }
 
-footer a {
-	float: right;
-	padding-right:20px;
-	line-height:90px;
+h2.clair,
+h3.clair {
+    color: #81b0d3;
 }
-
+    h2 {
+        font-size: 66px;
+    }
+    h3 {
+        font-size: 2.5em;
+    }
+    /*Footer*/
+    footer {
+        height: 90px;
+        background-color: #004364;
+    }
+    footer a {
+        float: right;
+        padding-right: 20px;
+        line-height: 90px;
+    }
