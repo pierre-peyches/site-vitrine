@@ -4,8 +4,9 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/vtour.css" />
-<link rel="icon" type="image/png" href="img/favicon.png" />
-
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <title>V-Tour</title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
@@ -50,25 +51,123 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-<section id="formulaire">
-    <form>
-    <img src="img/contact/entreprise.png" alt="entreprise"/>
-        <input placeholder="entreprise" />
+    <header>
+        <h2 class="clair">Contactez-nous !</h2>
+        <h3 class="clair">Vous voulez essayer nos produits ? Vous avez une question ? <br/> N'hésitez pas !</h3>
+
+
+        <!--    <div class="frontiere"></div>-->
+    </header>
+
+    <!--
+    <section id="formulaire" class="container">
+        <form class="form-horizontal">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <img src="img/contact/nom.png" class="" alt="nom contact" />
+                        <input type="text" placeholder="Votre nom" />
+                    </div>
+                    <div class="form-group">
+                        <img src="img/contact/email.png" class="" alt="email contact"/>
+                        <input type="text" placeholder="Votre email" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <img src="img/contact/telephone.png" class="" alt="telephone contact"/>
+                        <input type="text" placeholder="Votre téléphone" />
+                    </div>
+                    <div class="form-group">
+                        <img src="img/contact/entreprise.png" class="" alt="entreprise contact" />
+                        <input type="text" placeholder="Votre entreprise" />
+                    </div>
+
+                </div>
+            </div>
+            /.row
+
+                <div class="col-md-12">
+
+                <textarea></textarea>
+
+
+                </div>
 
 
 
+            <button type="submit">Envoyez</button>
 
+        </form>
+    </section>
+-->
+    <section id="formulaire" class="container">
+        <form>
+            <div class="row line-form">
+                <div class="col-md-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-1 picto">
+                            <img src="img/contact/nom.png" class="" alt="Nom" />
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" placeholder="Votre nom" />
+                        </div>
+                    </div>
+                </div>
+                <!--/.col-md-6 -->
+                <div class="col-md-6  col-xs-12">
+                    <div class="row">
+                        <div class="col-md-1 picto picto-droite">
+                            <img src="img/contact/telephone.png" class="" alt="Telephone" />
+                        </div>
+                        <div class="col-md-10">
+                            <input type="tel" placeholder="Votre téléphone" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row line-form">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-1 picto">
+                            <img src="img/contact/email.png" class="" alt="email" />
+                        </div>
+                        <div class="col-md-10">
+                            <input type="email" placeholder="Votre email" />
+                        </div>
+                    </div>
+                </div>
+                <!--/.col-md-6 -->
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-1 picto picto-droite">
+                            <img src="img/contact/entreprise.png" class="" alt="entreprise contact" />
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" placeholder="Votre email" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Zone de texte -->
 
+            <div class="row line-form">
+                <div class="col-md-12">
+                    <div class="row ">
+                        <div class="col-md-1 picto picto-droite">
+                            <img src="img/contact/text.png" class="" alt="Votre message" />
+                        </div>
+                        <div class="col-md-11">
+                            <textarea placeholder="Votre message" rows="7" cols="55"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    </form>
+            <!--Fin de zone de texte -->
+            <button class="btn-lg btn">Envoyez</button>
 
-
-
-
-
-
-
-
+        </form>
 
     </section>
 
