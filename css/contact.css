@@ -16,7 +16,7 @@ form input {
 
 header {
     background: #004364;
-    height: 290px;
+height:330px;
 }
 
 .frontiere {
@@ -33,8 +33,8 @@ header h2 {
 }
 
 #formulaire {
-    margin-top: 150px;
-        padding-bottom: 50px;
+    margin-top: 110px;
+    padding-bottom: 50px;
 }
 
 .line-form {
@@ -60,19 +60,66 @@ form .picto {
     display: block;
     background: #004364;
     color: white;
-    width:320px;
-    height:76px;
+    width: 320px;
+    height: 76px;
 }
 
-@media (max-width:992px){
+
+/*Plus d'information*/
+
+#more-information {
+    background-color: #81b0d3;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.content-more-information {
+    padding-left: 15px;
+    font-size: 1.2em;
+}
+
+.wrapper-more-information {
+    margin-bottom: 15px;
+    color: #004364;
+    opacity: 0.8;
+}
+
+.wrapper-more-information a {
+    color: #004364;
+}
+
+.wrapper-more-information:hover {
+    opacity: 1;
+}
+
+.wrapper-more-information img {
+    width: 36px;
+}
+.col-droite{
+padding-left:70px;
+
+}
+.col-droite h2{text-align: left;}
+.adresse-texte{display:none;}
+
+/*RWD*/
+
+@media (max-width:992px) {
     .picto-droite {
         padding-top: 25px;
-
     }
-    .picto{
-            padding-bottom: 10px;
+    .picto {
+        padding-bottom: 10px;
     }
-
-
-
+    .col-droite{
+        padding-left: 0;
+    }
+    .adresse-map{
+        display:none;
+    }
+    .adresse-texte{display:block;}
 }
