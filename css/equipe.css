@@ -1,0 +1,58 @@
+.photo {
+    border-radius: 330px;
+    background-color: #81b0d3;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#equipe {
+    margin-top: 50px;
+}
+
+#equipe .row {
+    margin: 0;
+}
+
+#equipe .liste-contacts {/*liste pictos de contact*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bio {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    font-family: Roboto;
+    color: #434343;
+}
+
+.contact-perso > a {
+    display: block;
+}
+
+.contact-perso img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.contact-perso:hover img {
+    transition-duration: 0.5s;
+    transform: rotate(360deg);
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+.identite {
+    text-transform: uppercase;
+text-align: center;
+    font-size: 3em;
+}
+
+.identite .nom{
+    color:#81b0d3;
+}
+.identite .prenom{
+    color: #004364;
+}
