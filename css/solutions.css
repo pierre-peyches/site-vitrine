@@ -1,15 +1,16 @@
-.illustration{
--webkit-filter: blur(5px);
--moz-filter: blur(5px);
--o-filter: blur(5px);
--ms-filter: blur(5px);
+/****************************
+    Tuto couleur
+****************************/
+/****************************
+Bleu foncé : #004364
+Bleu clair : #81b0d3
+Gris écriture : #434343
 
-filter: blur(5px);opacity: 0.7;
+****************************/
 
 
-    margin-top:-50px;
 
-}
+
 
 header.solutions{
     background-image: url('../img/solutions/2d.png');
@@ -29,14 +30,39 @@ header.solutions{
 #sig h3.titre-droit{
     text-align: right;
 }
-.ligne-description {
+
+#sig .ligne-description {
     margin-top: 20px;
     margin-bottom: 30px;
 
 }
 
-.paragraphe {
+#sig .paragraphe {
     color:#434343;
     font-family: Roboto;
     font-size : 1.2em;
+}
+
+#sig .illustration{
+        width: 25%;
+    vertical-align: middle;
+}
+
+
+/*Bouton dans le header*/
+.cta {
+    float:right;
+    background:#81b0d3;
+    color:#434343;
+    border:0;
+    border-radius: 10px;
+    width: 300px;
+    height: 80px;
+    font-size: 1.5em;
+    display: block;
+    text-transform: uppercase;
+
+}
+@media (max-width:992px){
+    .cta{display:none;}/*On fait disparaître le bouton en dessous de 992px*/
 }
