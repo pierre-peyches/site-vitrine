@@ -7,7 +7,7 @@
 }
 
 #equipe {
-    margin-top: 50px;
+/*    margin-top: 50px;*/
 }
 
 #equipe .row {
@@ -55,4 +55,11 @@ text-align: center;
 }
 .identite .prenom{
     color: #004364;
+}
+#benoit, #thomas, #pierre{
+    padding-top: 50px;
+
+}
+#benoit, #pierre{/*On rajoute un arrière plan de couleur #81b0d3 sur benoit et pierre ? */
+/*    background: #81b0d3;*/
 }
