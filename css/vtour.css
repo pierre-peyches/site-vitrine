@@ -1,4 +1,16 @@
-    @font-face {
+/****************************
+    Tuto couleur
+****************************/
+/****************************
+Bleu foncé : #004364
+Bleu clair : #81b0d3
+Gris écriture : #434343
+
+****************************/
+
+
+
+@font-face {
     font-family: Roboto;
     src: url(../fonts/Roboto-Medium.ttf);
 }
