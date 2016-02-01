@@ -7,22 +7,28 @@
     <link rel="stylesheet" href="css/home.css" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>V-Tour</title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.gallery.js"></script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-65129388-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', 'UA-65129388-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </head>
 
@@ -39,7 +45,6 @@
                 </button>
                 <a class="navbar-brand" href="#"><img src="img/vtour.png" alt="logo" /></a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
@@ -65,10 +70,8 @@
     </nav>
     <section id="video">
         <img src="img/banniere.png" alt="banniere vtour" />
-
-
     </section>
-    <section id="majeurs">
+    <section id="majeurs" class="container">
         <div class="row">
             <!-- Atouts majeurs-->
             <div class="col-md-4  wrapper">
@@ -85,8 +88,6 @@
                             <br/> > En savoir plus
                         </p>
                     </a>
-
-
                 </div>
             </div>
             <div class="col-md-4 wrapper">
@@ -102,8 +103,6 @@
                             <br/> > En savoir plus
                         </p>
                     </a>
-
-
                     <!--			<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>-->
                 </div>
             </div>
@@ -121,19 +120,14 @@
                             <br/> > En savoir plus
                         </p>
                     </a>
-
-
-
                 </div>
-
-
             </div>
-            </div><!--/.row -->
-            <!--</div>-->
-
+        </div>
+        <!--/.row -->
+        <!--</div>-->
     </section>
     <!--SECONDE RANGEE -->
-    <section id="mineurs">
+    <section id="mineurs" class="container">
         <div class="row">
             <!-- Atouts mineurs, accroche-->
             <div class="col-md-4 wrapper">
@@ -145,19 +139,14 @@
                 </div>
                 <div class="hover">
                     <a href="#">
-
-
                         <img src="img/stats.png" alt="stats" />
                         <p class="description">
                             Grâce aux statistiques avancées fournies par V-Tour, vous pouvez analyser en détail et optimiser les données de votre réseau.
                             <br/>
                             <br/> > En savoir plus</p>
                     </a>
-
                 </div>
             </div>
-
-
             <div class="col-md-4  wrapper">
                 <div class="content">
                     <img src="img/saas.png" alt="SaaS" />
@@ -191,73 +180,56 @@
                         </p>
                     </a>
                 </div>
-
-
             </div>
         </div>
 
     </section>
     <!--Slider -->
-
-<div class="section" id="slider">
-
-		<section id="dg-container" class="dg-container"> <!-- Gallerie de liens vidéos -->
-
-				<div class="dg-wrapper">
-
-
-
-					<a href="#" target="_blank" >
-						<img src="img/refs/tsp.jpg" alt="image02">
-							<div>TSP<br/> ------------------- <br/> Serious game<br/>
-							</div>
-					</a>
-
-
-					<a href="#" target="_blank" >
-						<img src="img/refs/erdf.jpg" alt="image03">
-							<div>ERDF <br/> ------------------- <br/> Modélisation de réseau<br/>
-							</div>
-					</a>
-
-					<a href="#" target="_blank">
-						<img src="img/refs/incubateur.jpg" alt="image04">
-							<div>Incubateur TMSP<br/> ------------------- <br/> Incubation<br/>
-							</div>
-					</a>
-
-				</div>
-
-
-				<nav>	<!-- Flèches de navigations entre les vidéos -->
-					<span class="dg-prev"></span>
-					<span class="dg-next"></span>
-				</nav>
-
-
-
-
-
-
-			</section>
-
-
-
-		</div>
-
-
+    <div class="section" id="slider">
+        <section id="dg-container" class="dg-container">
+            <!-- Gallerie de liens vidéos -->
+            <div class="dg-wrapper">
+                <a href="#" target="_blank">
+                    <img src="img/refs/tsp.jpg" alt="image02">
+                    <div>TSP
+                        <br/> -------------------
+                        <br/> Serious game
+                        <br/>
+                    </div>
+                </a>
+                <a href="#" target="_blank">
+                    <img src="img/refs/erdf.jpg" alt="image03">
+                    <div>ERDF
+                        <br/> -------------------
+                        <br/> Modélisation de réseau
+                        <br/>
+                    </div>
+                </a>
+                <a href="#" target="_blank">
+                    <img src="img/refs/incubateur.jpg" alt="image04">
+                    <div>Incubateur TMSP
+                        <br/> -------------------
+                        <br/> Incubation
+                        <br/>
+                    </div>
+                </a>
+            </div>
+            <nav>
+                <!-- Flèches de navigations entre les vidéos -->
+                <span class="dg-prev"></span>
+                <span class="dg-next"></span>
+            </nav>
+        </section>
+    </div>
     <!--Footer -->
-
     <footer>
         <a href="https://www.facebook.com/V-Tour-676590585805055/?fref=ts" target="_blank"><img src="img/fb.png" alt="facebook v-tour" /></a>
         <a href="https://twitter.com/VTour_FR" target="_blank"><img src="img/twitter.png" alt="twitter v-tour" /></a>
         <a href="http://www.viadeo.com/fr/company/v-tour" target="_blank"><img src="img/viadeo.png" alt=" viadeo v-tour" /></a>
         <a href="https://www.linkedin.com/company/v-tour_fr" target="_blank"><img src="img/linkedin.png" alt="linkedin v-tour" /></a>
         <a href="legal.html">© V-Tour</a>
-
     </footer>
-
-				<script type="text/javascript" src="js/jquery.gallery.js"></script>
+    <script type="text/javascript" src="js/jquery.gallery.js"></script>
 </body>
 
 </html>

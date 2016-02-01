@@ -65,11 +65,17 @@ nav > .nav.navbar-nav.navbar-right> a {
 
 
 /*Titres*/
-
+header h2{
+    color:white;
+    padding-top:60px;
+}
+header h3{color:white;}
 h2,
 h3 {
-    text-align: center;
-    line-height: 1.5em;
+        text-align: center;
+        line-height: 1.2em;
+    font-size:2em;
+
 }
 
 h2.fonce,

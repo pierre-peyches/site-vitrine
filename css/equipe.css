@@ -17,15 +17,18 @@
 #equipe .liste-contacts {/*liste pictos de contact*/
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left:75px;
+    padding-right:75px;
 }
 
 .bio {
     text-align: justify;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
     padding-top: 30px;
     font-family: Roboto;
     color: #434343;
+    font-size:1.2em;
 }
 
 .contact-perso > a {
