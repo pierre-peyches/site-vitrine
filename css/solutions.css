@@ -1,6 +1,8 @@
 /****************************
     Tuto couleur
 ****************************/
+
+
 /****************************
 Bleu foncé : #004364
 Bleu clair : #81b0d3
@@ -8,61 +10,67 @@ Gris écriture : #434343
 
 ****************************/
 
-
-
-
-
-header.solutions{
+header.solutions {
     background-image: url('../img/solutions/2d.png');
-        background-color:transparent;
-}
-#sig{
-        padding-top: 40px;
-}
-#sig h3{
-    color:#004364;
-
+    background-color: transparent;
 }
 
-#sig h3.titre-gauche{
+#sig {
+    padding-top: 40px;
+}
+
+#sig h3 {
+    color: #004364;
+}
+
+#sig h3.titre-gauche {
     text-align: left;
 }
-#sig h3.titre-droit{
+
+#sig h3.titre-droit {
     text-align: right;
 }
 
 #sig .ligne-description {
     margin-top: 20px;
-    margin-bottom: 30px;
-
+    margin-bottom: 50px;
 }
 
 #sig .paragraphe {
-    color:#434343;
+    color: #434343;
     font-family: Roboto;
-    font-size : 1.2em;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
-#sig .illustration{
-        width: 25%;
+#sig .illustration {
+    width: 25%;
     vertical-align: middle;
+}
+
+#sig h3 {
+    margin-top: 0;
 }
 
 
 /*Bouton dans le header*/
+
 .cta {
-    float:right;
-    background:#81b0d3;
-    color:#434343;
-    border:0;
+    float: right;
+    background: #81b0d3;
+    color: #434343;
+    border: 0;
     border-radius: 10px;
     width: 300px;
     height: 80px;
     font-size: 1.5em;
     display: block;
     text-transform: uppercase;
-
 }
-@media (max-width:992px){
-    .cta{display:none;}/*On fait disparaître le bouton en dessous de 992px*/
+
+@media (max-width:992px) {
+    .cta {
+        display: none;
+    }
+    /*On fait disparaître le bouton en dessous de 992px*/
 }
