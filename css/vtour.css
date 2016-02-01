@@ -98,8 +98,10 @@ h3.clair {
         line-height: 90px;
     }
 header{
-    background: #004364;
-    height: 330px;
+     background: #004364;
+    height: 360px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 header h2{
     margin-top:0;
