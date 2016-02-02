@@ -31,6 +31,7 @@ nav {
 .navbar-header,
 nav.navbar.navbar-default {
     min-height: 104px;
+    border-bottom: 0;
 }
 
 nav.navbar.navbar-default {
@@ -52,16 +53,29 @@ nav > .nav.navbar-nav.navbar-right> a {
     /* height:104px; */
 }
 
-.nav.navbar-nav li a {
+.nav.navbar-nav li a {/*Menu niveau 1*/
     line-height: 104px;
     height: 104px;
     padding-top: 0;
     padding-bottom: 0;
 }
 
-.nav.navbar-nav li a:hover {
+.nav.navbar-nav li a:hover { /*Menu niveau 1*/
     background: #81b0d3;
 }
+/***************************
+Menu niveau 2
+***************************/
+.nav.navbar-nav li li a, .nav.navbar-nav  li li a:hover{
+    height:50px;
+    line-height:50px;
+}
+.nav.navbar-nav .sous-menu{
+    padding-top:0;
+    padding-bottom:0;
+    border:0;
+}
+
 
 
 /*Titres*/
