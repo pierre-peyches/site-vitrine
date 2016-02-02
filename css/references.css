@@ -35,3 +35,10 @@ Gris écriture : #434343
 
 
 }
+
+#references .ligne-description{
+
+        margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #434343;
+}
