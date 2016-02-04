@@ -43,7 +43,7 @@
 #majeurs .wrapper,
 #mineurs .wrapper {
     overflow: hidden;
-    height: 422px;
+    height: 522px;
 }
 
 .wrapper a.boutonplus {
@@ -75,23 +75,18 @@
 /*On supprimer les bordures internes*/
 
 /*
-#majeurs .row > .wrapper.b-t-0,
-#mineurs .row > .wrapper.b-t-0 {
+.b-t-0{
     border-top: 0;
 }
 
-#majeurs .row > .wrapper.b-b-0,
-#mineurs .row > .wrapper.b-b-0 {
+.b-b-0 {
     border-bottom: 0;
 }
 
-#majeurs .row > .wrapper.b-l-0,
-#mineurs .row > .wrapper.b-l-0 {
+.b-l-0 {
     border-left: 0;
 }
-
-#majeurs .row > .wrapperb-r-0,
-#mineurs .row > .wrapper.b-r-0 {
+.b-r-0 {
     border-right: 0;
 }
 */
@@ -218,7 +213,16 @@ SLIDER
     background-position: bottom right;
 }
 
-
+#slider-mobile h4{
+        color: #004364;
+    text-align: center;
+    padding-top: 35px;
+    border-bottom: 1px solid #004364;
+    padding-bottom: 65px;
+}
+#slider-mobile h4.b-b-0{
+    border-bottom:0;
+}
 @media (max-width:992px){
     #slider{
         display:none;
@@ -238,7 +242,13 @@ SLIDER
 }
 
 
-.reference-mobile img {width:100%;}
+.reference-mobile img {
+    height: 150px;
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 @media (min-width:992px){
