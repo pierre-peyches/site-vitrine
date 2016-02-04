@@ -11,7 +11,7 @@
 #mineurs .row {
     margin-left: auto;
     margin-right: auto;
-/*    width: 1200px;*/
+    /*    width: 1200px;*/
 }
 
 #majeurs img,
@@ -71,12 +71,44 @@
     color: #434343;
 }
 
+
+/*On supprimer les bordures internes*/
+
+/*
+#majeurs .row > .wrapper.b-t-0,
+#mineurs .row > .wrapper.b-t-0 {
+    border-top: 0;
+}
+
+#majeurs .row > .wrapper.b-b-0,
+#mineurs .row > .wrapper.b-b-0 {
+    border-bottom: 0;
+}
+
+#majeurs .row > .wrapper.b-l-0,
+#mineurs .row > .wrapper.b-l-0 {
+    border-left: 0;
+}
+
+#majeurs .row > .wrapperb-r-0,
+#mineurs .row > .wrapper.b-r-0 {
+    border-right: 0;
+}
+*/
+
+
+/**************************************
+SLIDER
+**************************************/
+
 #slider {
     background-color: white;
     height: 530px;
-    width: 100%;
-    margin-top:80px;
+/*    width: 100%;*/
+    margin-top: 80px;
+    width!992px;
 }
+
 .dg-container {
     width: 800px;
     margin-left: auto;
@@ -96,20 +128,27 @@
 }
 
 .dg-wrapper img {
+    /*V1*/
+/*
     width: auto;
     height: 200px;
+*/
+    /*V2*/
+    width:300px;
+    height:auto;
 }
 
 
 /* on crée une ombre autour des visuels */
 
 .dg-wrapper a {
-    width: 400px;
+/*    width: 400px;*/
+    width: 88%;
     display: block;
     position: absolute;
     left: 0;
     top: 0;
-/*    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);*/
+    /*    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);*/
 }
 
 .dg-wrapper a.dg-transition {
@@ -121,7 +160,6 @@
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-
 }
 
 .dg-wrapper a div {
@@ -144,9 +182,9 @@
 /* Début des flèches de navigation */
 
 .dg-container nav {
-        width: 820px;
+    width: 820px;
     z-index: 1000;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -178,4 +216,21 @@
 
 .dg-container nav span.dg-next:hover {
     background-position: bottom right;
+}
+
+
+@media (max-width:992px){
+    #slider{
+        display:none;
+    }
+}
+
+#slider-mobile{
+    display:block;
+}
+@media (min-width:992px){
+    #slider-mobile{
+        display:none;
+    }
+
 }
