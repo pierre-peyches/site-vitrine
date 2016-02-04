@@ -224,10 +224,23 @@ SLIDER
         display:none;
     }
 }
-
+/*Slider mobile*/
 #slider-mobile{
     display:block;
 }
+
+
+.reference-mobile {
+    width:100%;
+        padding: 60px;
+
+
+}
+
+
+.reference-mobile img {width:100%;}
+
+
 @media (min-width:992px){
     #slider-mobile{
         display:none;
