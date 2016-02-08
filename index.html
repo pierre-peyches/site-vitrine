@@ -13,21 +13,19 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.gallery.js"></script>
-    <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+<!--    <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>-->
 <script>
     $(function(){
-  $( "#majeurs .wrapper" ).bind( "tap", tapHandler );
-  $( "#majeurs .wrapper" ).bind( "click", tapHandler2 );
+  $( "#majeurs .wrapper" ).bind( "touchstart", tapHandler );
+
 
   function tapHandler( event ){
-    $( event.target ).addClass( "tap" );
-      alert('test');
-    event.preventDefault();
-  }
-          function tapHandler2( event ){
-    $( event.target ).addClass( "tap" );
-      alert('test2');
-    event.preventDefault();
+
+      $('.hover').css('opacity','0');
+      $('.content').css('opacity','1');
+      $(event.currentTarget).find('.content').css('opacity','0');
+      $(event.currentTarget).find('.hover').css('opacity','1');
+      event.preventDefault();
   }
 });
 </script>
