@@ -16,11 +16,13 @@
     <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
 <script>
     $(function(){
-  $( ".content" ).bind( "tap", tapHandler );
+  $( "#majeurs .wrapper" ).bind( "tap", tapHandler );
+  $( "#majeurs .wrapper" ).bind( "click", tapHandler );
 
   function tapHandler( event ){
     $( event.target ).addClass( "tap" );
       alert('test');
+    event.preventDefault();
   }
 });
 </script>
