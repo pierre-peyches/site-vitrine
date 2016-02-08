@@ -14,25 +14,16 @@
     <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.gallery.js"></script>
     <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
-    <script>
- $(document).ready(function(){
-
-
-     alert('coucou');
-
-     $( ".content a" ).bind( "tap", tapHandler );
+<script>
+    $(function(){
+  $( ".content" ).bind( "tap", tapHandler );
 
   function tapHandler( event ){
-
-  alert("coucou2");
-          $( event.target ).preventDefault();
-}
- });
-
-
-
-
-    </script>
+    $( event.target ).addClass( "tap" );
+      alert('test');
+  }
+});
+</script>
 
 
     <script>
