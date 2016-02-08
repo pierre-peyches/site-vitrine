@@ -17,11 +17,16 @@
 <script>
     $(function(){
   $( "#majeurs .wrapper" ).bind( "tap", tapHandler );
-  $( "#majeurs .wrapper" ).bind( "click", tapHandler );
+  $( "#majeurs .wrapper" ).bind( "click", tapHandler2 );
 
   function tapHandler( event ){
     $( event.target ).addClass( "tap" );
       alert('test');
+    event.preventDefault();
+  }
+          function tapHandler2( event ){
+    $( event.target ).addClass( "tap" );
+      alert('test2');
     event.preventDefault();
   }
 });
