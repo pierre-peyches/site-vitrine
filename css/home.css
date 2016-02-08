@@ -21,10 +21,14 @@ width: 100%;
 .wrapper-catch-phrase h1{
 font-size: 3.5em;
 }
-.catch-phrase{margin-left: auto;
-margin-right: auto;
+.catch-phrase{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
-.catch-phrase h2{text-align:left;}
+.catch-phrase h2{text-align:left;
+line-height: 1.5em;
+}
 /*
 
 #video {
@@ -291,3 +295,27 @@ SLIDER
     font-size:1em;
     }
 }
+
+
+.cta {
+    background: #81b0d3;
+    color: #434343;
+    border: 0;
+    border-radius: 10px;
+    width: 430px;
+    height: 80px;
+    font-size: 1.5em;
+    display: block;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 60px;
+    right: 50px;
+}
+
+@media (max-width:992px) {
+    .cta {
+        display: none;
+    }
+    /*On fait disparaître le bouton en dessous de 992px*/
+}
+
