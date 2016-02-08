@@ -1,9 +1,37 @@
+#video {
+    position:relative;
+}
+
 #video img {
     width: 100%;
     height: auto;
     opacity: 0.5;
+    max-height: 630px;
+
 }
 
+.wrapper-catch-phrase{
+        position:absolute;
+    top:0;
+    left:0;
+width: 100%;
+        color: #004364;
+    z-index: 1;
+}
+.wrapper-catch-phrase h1{
+font-size: 3.5em;
+}
+.catch-phrase{margin-left: auto;
+margin-right: auto;
+}
+.catch-phrase h2{text-align:left;}
+/*
+
+#video {
+
+ background-image:url('../img/banniere.png');
+}
+*/
 
 /*Avantages*/
 
