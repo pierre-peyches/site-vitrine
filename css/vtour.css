@@ -141,3 +141,10 @@ header h2{
 .b-r-0 {
     border-right: 0;
 }
+
+/*Logo version mobile*/
+#logo-mobile{display:none;}
+@media (max-width:350px){
+    #logo{display:none;}
+    #logo-mobile{display:block}
+}

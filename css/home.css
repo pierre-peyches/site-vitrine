@@ -325,7 +325,4 @@ SLIDER
        .wrapper-catch-phrase h1, .wrapper-catch-phrase h2{font-size:1em;}
 }
 
-@media (max-width:350px){
-    #logo{display:none;}
-    #logo-mobile{display:block}
-}
+
