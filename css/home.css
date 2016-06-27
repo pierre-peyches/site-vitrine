@@ -10,6 +10,18 @@
 min-height:206px;
 }
 
+#video img.lecture{
+    width: 100px;
+    height: 100px;
+    min-height: 0;
+    opacity: 1;
+
+        position: absolute;
+    bottom: 60px;
+    left: 50%;
+    z-index: 5;
+    cursor:pointer;
+}
 .wrapper-catch-phrase{
         position:absolute;
     top:0;
@@ -29,6 +41,18 @@ font-size: 3.2em;
 .catch-phrase h2{
     text-align:left;
 line-height: 1.5em;
+}
+
+
+#modal-video{
+    height:200px;
+    width:100%;
+    background: pink;
+    /*A supprimer*/  position: relative;
+    top: 200px;
+    margin-top: -200px;
+
+
 }
 /*
 
