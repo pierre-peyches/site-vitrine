@@ -13,42 +13,36 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.gallery.js"></script>
-<!--    <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>-->
-<script>
-    $(function(){
-  $( "#majeurs .bouton-plus" ).bind( "touchstart", tapHandler );
-  $( "#mineurs .bouton-plus" ).bind( "touchstart", tapHandler );
+    <!--    <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>-->
+    <script>
+        $(function () {
+            $("#majeurs .bouton-plus").bind("touchstart", tapHandler);
+            $("#mineurs .bouton-plus").bind("touchstart", tapHandler);
 
-
-  function tapHandler( event ){
-
-      $('.hover').css('opacity','0');
-      $('.content').css('opacity','1');
-      $(event.currentTarget).find('.content').css('opacity','0');
-      $(event.currentTarget).find('.hover').css('opacity','1');
-//      event.preventDefault();
-  }
-});
-</script>
-
-
+            function tapHandler(event) {
+                $('.hover').css('opacity', '0');
+                $('.content').css('opacity', '1');
+                $(event.currentTarget).find('.content').css('opacity', '0');
+                $(event.currentTarget).find('.hover').css('opacity', '1');
+                //      event.preventDefault();
+            }
+        });
+    </script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
+            a = s.createElement(o)
+                , m = s.getElementsByTagName(o)[0];
             a.async = 1;
             a.src = g;
             m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
-
         ga('create', 'UA-65129388-1', 'auto');
         ga('send', 'pageview');
     </script>
-
 </head>
 
 <body>
@@ -56,22 +50,13 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <a class="navbar-brand" href="#"><img src="img/vtour.png" alt="logo" id="logo" /></a>
                 <a class="navbar-brand" href="#"><img src="img/logo-carre.png" alt="logo" id="logo-mobile" /></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-
                 <ul class="nav navbar-nav navbar-right">
-
-
                     <li><a href="solution.html">Solution</a></li>
                     <li><a href="references.html">Références</a></li>
                     <li><a href="actualites.html">Actualites</a></li>
@@ -84,26 +69,12 @@
         <!-- /.container-fluid -->
     </nav>
     <section id="video">
-
         <div class="wrapper-catch-phrase">
             <div class="catch-phrase container">
-        <h1><b>Gagnez du temps avec V-Tour </b></h1>
-        <h2>Un logiciel S.I de visualisation et de mise à jour de données techniques et géolocalisées.</h2>
-        </div>
-
-</div>
-<!--        <img src="img/play.png" alt="lecture" class="lecture"/>-->
-            <img class="wrapper-image" src="img/banniere.png" alt="banniere vtour" />
- <a href="contact.html" class=" btn cta">Demandez une<br/> démonstration</a>
-
-        <!--<div id="modal-video">
-
-
-
-        </div>-->
-
-    </section>
-<!--
+                <h1><b>Gagnez du temps avec V-Tour </b></h1>
+                <h2>Un logiciel S.I de visualisation et de mise à jour de données techniques et géolocalisées.</h2> </div>
+        </div> <img src="img/play.png" alt="lecture" class="lecture" /> <img class="wrapper-image" src="img/banniere.png" alt="banniere vtour" /> <a href="contact.html" class=" btn cta">Demandez une<br/> démonstration</a> </section>
+    <!--
     <section id="video">
             <h1>Gagnez du temps avec V-Tour</h1>
         <h2>Un logiciel S.I de visualisation et de mise à jour de données techniques et géolocalisées.</h2>
@@ -116,68 +87,54 @@
             <!-- Atouts majeurs-->
             <!--Cartographie -->
             <div class="col-md-4  wrapper b-r-0 b-b-0">
-                <div class="content">
-                    <img src="img/geolocalisation.png" alt="Géolocalisation" />
+                <div class="content"> <img src="img/geolocalisation.png" alt="Géolocalisation" />
                     <h3>Cartographiez<br/>vos actifs</h3>
-<!--                    <a href="">-->
-                        <img src="img/plus.png" alt="" class="bouton-plus" />
-
-<!--                    </a>-->
+                    <!--                    <a href="">--><img src="img/plus.png" alt="" class="bouton-plus" />
+                    <!--                    </a>-->
                 </div>
                 <div class="hover">
-<!--                    <a href="#">-->
-                        <img src="img/geolocalisation.png" alt="Geolocalisation" />
-                        <p class="description"> Avec le S.I.G de V-Tour, visualisez instantanément l'intégralité de vos actifs. Vous pouvez ainsi localiser l'ensemble de vos infrastructures, et avoir accès à l'ensemble de leurs données.
-                            <br/>
-                            <br/>
-<!--                            > En savoir plus-->
-                        </p>
-<!--                    </a>-->
+                    <!--                    <a href="#">--><img src="img/geolocalisation.png" alt="Geolocalisation" />
+                    <p class="description"> Avec le S.I.G de V-Tour, visualisez instantanément l'intégralité de vos actifs. Vous pouvez ainsi localiser l'ensemble de vos infrastructures, et avoir accès à l'ensemble de leurs données.
+                        <br/>
+                        <br/>
+                        <!--                            > En savoir plus-->
+                    </p>
+                    <!--                    </a>-->
                 </div>
             </div>
             <!--/Cartographie -->
-                        <div class="col-md-4 wrapper b-l-0 b-r-0 b-b-0">
-                <div class="content">
-                    <img src="img/connaissance.png" alt="Connaissance" />
+            <div class="col-md-4 wrapper b-l-0 b-r-0 b-b-0">
+                <div class="content"> <img src="img/connaissance.png" alt="Connaissance" />
                     <h3>Centralisez <br/>vos connaissances </h3>
-<!--                    <a href=""><img src="img/plus.png" alt="" class="bouton-plus" /></a>-->
-                    <img src="img/plus.png" alt="" class="bouton-plus" />                </div>
+                    <!--                    <a href=""><img src="img/plus.png" alt="" class="bouton-plus" /></a>--><img src="img/plus.png" alt="" class="bouton-plus" /> </div>
                 <div class="hover">
-<!--                    <a href="">-->
-                        <img src="img/connaissance.png" alt="connaissance" />
-                        <p class="description"> Grâce à la centralisation de l’information, centralisez les dernières versions de vos documents et augmentez ainsi la qualité de vos interventions.
-                            <br/>
-                            <br/>
-<!--                            > En savoir plus-->
-                        </p>
-<!--                    </a>-->
-                    <!--			<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>-->
-                </div>
-            </div>
-                        <!--Stats-->
-            <div class="col-md-4 wrapper b-r-0">
-                <div class="content">
-                    <img src="img/stats.png" alt="stats" />
-                    <h3>Analysez <br/>vos données</h3>
-<!--                    <a href="">-->
-                        <img src="img/plus.png" alt="" class="bouton-plus" />
-<!--                    </a>-->
-                </div>
-                <div class="hover">
-<!--                    <a href="#">-->
-                        <img src="img/stats.png" alt="stats" />
-                        <p class="description">
-                            Grâce aux statistiques avancées fournies par V-Tour, vous pouvez analyser en détail et optimiser les données de votre réseau.
-                            <br/>
-                            <br/>
-<!--                            > En savoir plus-->
+                    <!--                    <a href="">--><img src="img/connaissance.png" alt="connaissance" />
+                    <p class="description"> Grâce à la centralisation de l’information, centralisez les dernières versions de vos documents et augmentez ainsi la qualité de vos interventions.
+                        <br/>
+                        <br/>
+                        <!--                            > En savoir plus-->
                     </p>
-<!--                    </a>-->
+                    <!--                    </a>-->
+                    <!--			<a href=""><img src="img/plus.png" alt="" class="bouton-plus"/></a>--></div>
+            </div>
+            <!--Stats-->
+            <div class="col-md-4 wrapper b-r-0">
+                <div class="content"> <img src="img/stats.png" alt="stats" />
+                    <h3>Analysez <br/>vos données</h3>
+                    <!--                    <a href="">--><img src="img/plus.png" alt="" class="bouton-plus" />
+                    <!--                    </a>-->
+                </div>
+                <div class="hover">
+                    <!--                    <a href="#">--><img src="img/stats.png" alt="stats" />
+                    <p class="description"> Grâce aux statistiques avancées fournies par V-Tour, vous pouvez analyser en détail et optimiser les données de votre réseau.
+                        <br/>
+                        <br/>
+                        <!--                            > En savoir plus-->
+                    </p>
+                    <!--                    </a>-->
                 </div>
             </div>
             <!--/Stats -->
-
-
         </div>
         <!--/.row -->
         <!--</div>-->
@@ -185,74 +142,61 @@
     <!--SECONDE RANGEE -->
     <section id="mineurs" class="container">
         <div class="row">
-                        <!--Backoffice -->
+            <!--Backoffice -->
             <div class="col-md-4  wrapper b-b-0 b-l-0">
-                <div class="content">
-                    <img src="img/backoffice.png" alt="Back-office" />
+                <div class="content"> <img src="img/backoffice.png" alt="Back-office" />
                     <h3>Administrez <br/>vos infrastructures</h3>
-<!--                    <a href="">-->
-                        <img src="img/plus.png" alt="" class="bouton-plus" />
-<!--                    </a>-->
+                    <!--                    <a href="">--><img src="img/plus.png" alt="" class="bouton-plus" />
+                    <!--                    </a>-->
                 </div>
                 <div class="hover">
-<!--                    <a href="">-->
-                        <img src="img/backoffice.png" alt="backoffice" />
-                        <p class="description"> Grâce à l’interface d’administration clé en main, vous pouvez gérer vos données directement en ligne, vous gagnez ainsi en rapidité.
-                            <br/>
-                            <br/>
-<!--                            > En savoir plus-->
-                        </p>
-<!--                    </a>-->
+                    <!--                    <a href="">--><img src="img/backoffice.png" alt="backoffice" />
+                    <p class="description"> Grâce à l’interface d’administration clé en main, vous pouvez gérer vos données directement en ligne, vous gagnez ainsi en rapidité.
+                        <br/>
+                        <br/>
+                        <!--                            > En savoir plus-->
+                    </p>
+                    <!--                    </a>-->
                 </div>
             </div>
             <!--/ Backoffice-->
-
-                        <!--Evolution -->
+            <!--Evolution -->
             <div class="col-md-4  wrapper">
-                <div class="content">
-                    <img src="img/evolutivite.png" alt="Evolutivité" />
+                <div class="content"> <img src="img/evolutivite.png" alt="Evolutivité" />
                     <h3>Faites évoluer<br/>votre logiciel </h3>
-<!--                    <a href="">-->
-                        <img src="img/plus.png" alt="" class="bouton-plus" />
-<!--                    </a>-->
+                    <!--                    <a href="">--><img src="img/plus.png" alt="" class="bouton-plus" />
+                    <!--                    </a>-->
                 </div>
                 <div class="hover">
-<!--                    <a href="#">-->
-                        <img src="img/evolutivite.png" alt="evolutivite" />
-                        <p class="description">V-Tour propose un S.I.G modulable. Vous avez besoin de fonctionnalités spécifiques ? Vos effectifs augmentent ? Notre logiciel évolue selon vos demandes.
-                            <br/>
-                            <br/>
-<!--                            > En savoir plus-->
-
-                        </p>
-<!--                    </a>-->
+                    <!--                    <a href="#">--><img src="img/evolutivite.png" alt="evolutivite" />
+                    <p class="description">V-Tour propose un S.I.G modulable. Vous avez besoin de fonctionnalités spécifiques ? Vos effectifs augmentent ? Notre logiciel évolue selon vos demandes.
+                        <br/>
+                        <br/>
+                        <!--                            > En savoir plus-->
+                    </p>
+                    <!--                    </a>-->
                 </div>
             </div>
             <!--/Evolution -->
             <!--SaaS -->
             <div class="col-md-4  wrapper">
-                <div class="content">
-                    <img src="img/saas.png" alt="SaaS" />
+                <div class="content"> <img src="img/saas.png" alt="SaaS" />
                     <h3>Installez facilement <br/>avec notre SaaS </h3>
-<!--                    <a href="">-->
-                        <img src="img/plus.png" alt="" class="bouton-plus" />
-<!--                    </a>-->
+                    <!--                    <a href="">--><img src="img/plus.png" alt="" class="bouton-plus" />
+                    <!--                    </a>-->
                 </div>
                 <!-- content-->
                 <div class="hover">
-<!--                    <a href="">-->
-                        <img src="img/saas.png" alt="saas" />
-                        <p class="description">
-                            Grâce à son fonctionnement en mode Saas, plus besoin d’installer votre logiciel, vous gagnez du temps en accédant au logiciel en ligne.
-                            <br/>
-                            <br/>
-<!--                            > En savoir plus-->
-                        </p>
-<!--                    </a>-->
+                    <!--                    <a href="">--><img src="img/saas.png" alt="saas" />
+                    <p class="description"> Grâce à son fonctionnement en mode Saas, plus besoin d’installer votre logiciel, vous gagnez du temps en accédant au logiciel en ligne.
+                        <br/>
+                        <br/>
+                        <!--                            > En savoir plus-->
+                    </p>
+                    <!--                    </a>-->
                 </div>
             </div>
             <!--/SaaS -->
-
         </div>
     </section>
     <!--Slider 992 -->
@@ -260,69 +204,91 @@
         <section id="dg-container" class="dg-container">
             <!-- Gallerie de liens vidéos -->
             <div class="dg-wrapper">
-                              <a href="references.html">
-
-                    <img src="img/refs/erdf.jpg" alt="ERDF">
+                <a href="references.html"> <img src="img/refs/erdf.jpg" alt="ERDF">
                     <div>ERDF
                         <br/> -------------------
-                        <br/> Logiciel d'analyse, de gestion et  de visualisation des actifs
-                        <br/>
-                    </div>
+                        <br/> Logiciel d'analyse, de gestion et de visualisation des actifs
+                        <br/> </div>
                 </a>
-                <a href="references.html" >
-                    <img src="img/refs/tsp.jpg" alt="Telecom SudParis">
+                <a href="references.html"> <img src="img/refs/tsp.jpg" alt="Telecom SudParis">
                     <div>TSP
                         <br/> -------------------
                         <br/>Serious game de modélisation du campus de l'école
-                        <br/>
-                    </div>
+                        <br/> </div>
                 </a>
-
-                <a href="references.html">
-                    <img src="img/refs/incubateur.jpg" alt="Incubateur Telecom et Manament Entrepreneurs">
+                <a href="references.html"> <img src="img/refs/incubateur.jpg" alt="Incubateur Telecom et Manament Entrepreneurs">
                     <div>Incubateur TMSP
                         <br/> -------------------
                         <br/> Encadrement et accompagnement par des experts
-                        <br/>
-                    </div>
+                        <br/> </div>
                 </a>
             </div>
             <nav>
-                <!-- Flèches de navigations entre les vidéos -->
-                <span class="dg-prev"></span>
-                <span class="dg-next"></span>
-            </nav>
+                <!-- Flèches de navigations entre les vidéos --><span class="dg-prev"></span> <span class="dg-next"></span> </nav>
         </section>
     </div>
     <!--Références pour tablettes mobiles -->
-<section id="slider-mobile">
-<h3>Ils nous font  confiance</h3>
-<div class="reference-mobile">
-    <img src="img/refs/erdf.jpg" alt="erdf"/>
-    <h4>Logiciel d'analyse, de gestion et  de visualiation des actifs </h4>
-    </div>
-<div class="reference-mobile">
-<img src="img/refs/tsp.jpg" alt="Telecom SudParis"/>
-    <h4>Serious game de modélisation du campus de l'école</h4>
-    </div>
-<div class="reference-mobile">
-<img src="img/refs/incubateur.jpg"  alt="Incubateur Telecom et Manament Entrepreneurs"/>
-        <h4 class="b-b-0">Encadrement et accompagnement par des experts</h4>
-    </div>
-
-
+    <section id="slider-mobile">
+        <h3>Ils nous font  confiance</h3>
+        <div class="reference-mobile"> <img src="img/refs/erdf.jpg" alt="erdf" />
+            <h4>Logiciel d'analyse, de gestion et  de visualiation des actifs </h4> </div>
+        <div class="reference-mobile"> <img src="img/refs/tsp.jpg" alt="Telecom SudParis" />
+            <h4>Serious game de modélisation du campus de l'école</h4> </div>
+        <div class="reference-mobile"> <img src="img/refs/incubateur.jpg" alt="Incubateur Telecom et Manament Entrepreneurs" />
+            <h4 class="b-b-0">Encadrement et accompagnement par des experts</h4> </div>
     </section>
-
-
     <!--Footer -->
     <footer>
         <a href="https://www.facebook.com/V-Tour-676590585805055/?fref=ts" target="_blank"><img src="img/fb.png" alt="facebook v-tour" /></a>
         <a href="https://twitter.com/VTour_FR" target="_blank"><img src="img/twitter.png" alt="twitter v-tour" /></a>
         <a href="http://www.viadeo.com/fr/company/v-tour" target="_blank"><img src="img/viadeo.png" alt=" viadeo v-tour" /></a>
-        <a href="https://www.linkedin.com/company/v-tour_fr" target="_blank"><img src="img/linkedin.png" alt="linkedin v-tour" /></a>
-        <a href="legal.html">© V-Tour</a>
-    </footer>
+        <a href="https://www.linkedin.com/company/v-tour_fr" target="_blank"><img src="img/linkedin.png" alt="linkedin v-tour" /></a> <a href="legal.html">© V-Tour</a> </footer>
+    <div id="wrapper-video">
+        <video controls class="">
+            <source src="video/video-vtour.mp4" type="video/mp4" /> </video>
+    </div>
     <script type="text/javascript" src="js/jquery.gallery.js"></script>
 </body>
+<script>
+    $(document).ready(function () {
+        $('.lecture').click(function () {/*Animation pour le bouton play*/
+            $('#wrapper-video').css('display', 'block');
+            $("#wrapper-video").animate({
+                opacity: 1
+                , ease: 'linear'
+            }, 1000, function () {
+//                $('video')[0].delay(700).play();
+                $('video').delay(500);
+                $('video')[0].play();
+            });
+        });
+        
+        $(document).keyup(function (e) { /*Faire disparaitre la popup video avec echap*/
+            if (e.keyCode == 27) {
+                $("#wrapper-video").animate({
+                    opacity: 0
+                    , ease: 'linear'
+                }, 500, function () {
+                    $('#wrapper-video').css('display', 'none');
+                    $('video')[0].pause();
+                });
+            }
+        });
+        
+        $('#wrapper-video').click(function(){
+           console.log('coucou'); 
+            $('video')[0].pause();
+            $("#wrapper-video").animate({
+                    opacity: 0
+                    , ease: 'linear'
+                }, 500, function () {
+                    $('#wrapper-video').css('display', 'none');
+                    $('video')[0].pause();
+                });
+            
+        });
+        
+    });
+</script>
 
 </html>
