@@ -148,3 +148,9 @@ header h2{
     #logo{display:none;}
     #logo-mobile{display:block}
 }
+.paragraphe{
+    color: #434343;
+    font-family: Roboto;
+    font-size: 1.2em;
+    text-align: justify;
+}
