@@ -142,6 +142,10 @@ header h2{
     border-right: 0;
 }
 
+@media (max-width:480px){
+    h2{font-size: 22px;}
+    header{height:240px;}
+}
 /*Logo version mobile*/
 #logo-mobile{display:none;}
 @media (max-width:350px){
