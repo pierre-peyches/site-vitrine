@@ -73,7 +73,9 @@
             <div class="catch-phrase container">
                 <h1><b>Cartographiez vos infrastructures avec V-Tour </b></h1>
                 <h2>Gérez et modélisez vos infrastructures et vos réseaux grâce à V-Tour.</h2> </div>
-        </div> <img src="img/play.png" alt="lecture" class="lecture" /> <img class="wrapper-image" src="img/banniere.png" alt="banniere vtour" /> <a href="contact.html" class=" btn cta">Demandez une<br/> démonstration</a> </section>
+        </div>
+<!--        <img src="img/play.png" alt="lecture" class="lecture" /> -->
+        <img class="wrapper-image" src="img/banniere.png" alt="banniere vtour" /> <a href="contact.html" class=" btn cta">Demandez une<br/> démonstration</a> </section>
 
     <section id="majeurs" class="container">
         <div class="row">
@@ -268,10 +270,7 @@
         });
         
         $('#wrapper-video').click(function(e){
-            l = $(this);
-            test = e;
-            console.log(e);
-           console.log('coucou'); 
+
             $('video')[0].pause();
             $("#wrapper-video").animate({
                     opacity: 0
